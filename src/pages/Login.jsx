@@ -53,6 +53,19 @@ const Login = () => {
             />
           </div>
           <button type="submit">Sign In</button>
+          <div style={{
+            marginTop: '16px',
+            padding: '12px',
+            background: '#f0f4ff',
+            borderRadius: '8px',
+            fontSize: '13px',
+            color: '#555',
+            textAlign: 'center'
+          }}>
+            <div style={{ fontWeight: '600', marginBottom: '4px' }}>💡 Default Credentials</div>
+            <div>Email: <strong>admin@gmail.com</strong></div>
+            <div>Password: <strong>admin1234</strong></div>
+          </div>
         </form>
       </div>
     </div>
